@@ -1,6 +1,8 @@
 # OddOccurencesInArray
 # Find value that occurs in odd number of elements.
 
+# full description: https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+
 def solution(a)
  sorted_array = a.sort
 

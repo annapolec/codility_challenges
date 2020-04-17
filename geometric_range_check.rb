@@ -1,6 +1,8 @@
 # GenomicRangeQuery
 # Find the minimal nucleotide from a range of sequence DNA.
 
+# full description: https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
+
 def solution(s, p, q)
   result = []
   positions = { "A" => 0, "C" => 1, "G" => 2, "T" => 3 }

@@ -1,6 +1,8 @@
 # PermMissingElem
 # Find the missing element in a given permutation.
 
+# full description: https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+
 def solution(a)
  sorted_array = a.sort
 

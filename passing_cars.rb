@@ -1,6 +1,8 @@
 # PassingCars
 # Count the number of passing cars on the road.
 
+# full description: https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
+
 def solution(a)
   cars_going_east = [0]
 

@@ -1,6 +1,8 @@
 # MaxProductOfThree
 # Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R).
 
+# full description: https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/
+
 def solution(a)
   sorted_array = a.sort
 

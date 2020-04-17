@@ -1,6 +1,8 @@
 # CountDiv
 # Compute number of integers divisible by k in range [a..b].
 
+# full description: https://app.codility.com/programmers/lessons/5-prefix_sums/count_div/
+
 def solution(a, b, k)
   first_dividend = a
   remainder = first_dividend%k

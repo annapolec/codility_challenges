@@ -1,6 +1,8 @@
 # PermCheck
 # Check whether array A is a permutation.
 
+# full description: https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+
 def solution(a)
  counter = Hash.new(0)
  a.each do |elem|

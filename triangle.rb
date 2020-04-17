@@ -1,6 +1,8 @@
 # Triangle
 # Determine whether a triangle can be built from a given set of edges.
 
+# full description: https://app.codility.com/programmers/lessons/6-sorting/triangle/
+
 def solution(a)
   numbers = a.sort
   (0..numbers.length-3).each do |index|

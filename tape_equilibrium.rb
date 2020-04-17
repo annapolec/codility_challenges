@@ -1,6 +1,8 @@
 # TapeEquilibrium
 # Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
 
+# full description: https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+
 def solution(a)
   first_sum = a[0]
   second_sum = a.inject(&:+) - a.first
